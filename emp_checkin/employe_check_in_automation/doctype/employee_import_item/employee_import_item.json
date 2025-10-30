@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-28 12:54:12.515977",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "emp_id",
+  "emp_name",
+  "department",
+  "date",
+  "on_duty",
+  "off_duty",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "emp_id",
+   "fieldtype": "Data",
+   "label": "Emp ID"
+  },
+  {
+   "fieldname": "emp_name",
+   "fieldtype": "Data",
+   "label": "Emp Name"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "on_duty",
+   "fieldtype": "Time",
+   "label": "On Duty"
+  },
+  {
+   "fieldname": "off_duty",
+   "fieldtype": "Time",
+   "label": "Off Duty"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-28 15:55:42.533065",
+ "modified_by": "Administrator",
+ "module": "Employe check-In Automation",
+ "name": "Employee Import Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
